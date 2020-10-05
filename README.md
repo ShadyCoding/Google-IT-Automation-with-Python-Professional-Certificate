@@ -20,3 +20,6 @@ Learn to use Git and GitHub, to troubleshoot and debug complex problems
 Apply automation at scale by using configuration management and the Cloud
 
 Practice your technical skills with hands-on projects including a capstone project where you’ll use your new knowledge to solve a real-world IT problem
+
+# Specialization Certificate
+[Google IT Automation with Python Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/BW3ZHXFUBG2W)
