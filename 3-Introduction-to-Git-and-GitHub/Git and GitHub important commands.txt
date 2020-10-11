@@ -1,0 +1,10 @@
+1. set your local project folder as the current working directory
+2. initialize the local directory as a Git repository by use the command "git init"
+3. add the files in your new local repository. your files will now be staged for the the commit by use the command "git Add ."(Add space dot). this will add all your files to local repository
+4. use command "git status" to see all your files ready to staged for commit
+5. commit the files that you have staged in your local repository by use the command "git commit -m "your msg"
+6. copy the remote repository's URL(the URL of your github repository)
+7. add the URL for the remote repository where your local repository will be pushed by use the command "git remote add origin <paste your repository URL>"
+8. push the code in your local repository to github by use the command "git push -u origin master" you will be asked to enter your github username and passward
+9. view your files in your github repository
+10. to remove file only from github by the use cammand "git rm --cached <file name>"
