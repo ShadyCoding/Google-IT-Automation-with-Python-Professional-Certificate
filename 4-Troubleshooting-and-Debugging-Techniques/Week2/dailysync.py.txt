@@ -1,0 +1,22 @@
+import subprocess
+src = "/home/student-04-06ba9e75661d/data/prod/" # replace <source-path> with the source directory
+dest = "/home/student-04-06ba9e75661d/data/prod_backup" # replace <destination-path> with the destination directory
+
+#!/usr/bin/env python
+import subprocess
+from multiprocessing import Pool
+import subprocess
+import os
+src = "/home/student-04-06ba9e75661d/data/prod/"
+dest = "/home/student-04-06ba9e75661d/data/prod_backup/"
+
+
+def run(directory):
+        print("Handling {}".format(directory))
+        subprocess.call(["rsync", "-arq", src, dest])
+
+if __name__== "__main__":
+        p= Pool(len(os.listdir(src)))
+        p.map(run, os.listdir(src))
+
+
